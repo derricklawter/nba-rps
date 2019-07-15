@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> Rock paper Scissors</title>
+        <link rel = "stylesheet" href = "gameFiles/styles.css">
+    </head>
+    <body>
+        <div class= nav_bar><a href="https://basketballnerd.com/"><img id='nav_image' src='gameImages/header.png'></a></div>
+        <header>
+            <div><h1>Rock Paper Scissors - NBA Edition</h1></div>
+        </header>
+
+        <div class = 'score-board'>
+            <div id = 'user_label' class = 'badge'>User</div>
+            <div id = 'comp_label' class = 'badge'>Nerds</div>
+            <span id = 'user_score'>0</span>:<span id = 'comp_score'>0</span>      
+        </div>
+
+        <div class = 'result'> 
+            <p>Can you beat the Basketball Nerds?</p>
+        </div>
+
+        <div class = 'choices'>
+            <div id = 'clippers' class = "choice">
+                <img class = "image_logo" src ="gameImages/clippersLogo.png" alt=>
+            </div>
+            <div  id = 'lakers' class = "choice">
+                <img class = "image_logo" src ="gameImages/lakersLogo.png" alt=>
+            </div>
+            <div id = 'rockets' class = "choice">
+                <img class = "image_logo" src ="gameImages/rocketsLogo.png" alt=>
+             </div>
+        </div>
+
+        <p id = 'action_message'>Pick Your Squad</p>
+    <script src ="gameFiles/app.js" charset="utf-8"></script>
+    </body>
+</html>
