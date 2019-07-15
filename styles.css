@@ -123,6 +123,24 @@ h1 {
     font-weight: bold;
 }
 
+#action_link{
+    text-align: center;
+    justify-content: center;
+    font-family: Asap;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top:20px;
+   
+}
+
+
+
+#action_link:hover{
+    color: lightblue;
+}
+
 .green-glow{
     border: 4px solid #4dcc7d;
     box-shadow: 0 0 10pz #31b43a
